@@ -3,7 +3,7 @@ const { cmd } = require("../command");
 const moment = require("moment-timezone");
 let botStartTime = Date.now();
 
-const ALIVE_IMG = "https://i.ibb.co/KhnqBwt/mrfrankofc.jpg";
+const ALIVE_IMG = "https://files.catbox.moe/0ydsic.jpeg";
 
 cmd({
   pattern: "alive",
@@ -21,7 +21,7 @@ cmd({
     const runtimeMinutes = Math.floor((runtimeMilliseconds / (1000 * 60)) % 60);
     const runtimeHours = Math.floor(runtimeMilliseconds / (1000 * 60 * 60));
     const formattedInfo = `
- 🏮 *SUBZERO MD STATUS* 🏮 
+ 🏮 *STANY-TECH XMD STATUS* 🏮 
 
   *Hi👋😄 ${pushname}*
 
@@ -29,9 +29,9 @@ cmd({
  *📆 Date: ${harareDate}*
  *🔋 Uptime: ${runtimeHours} hours, ${runtimeMinutes} minutes, ${runtimeSeconds} seconds*
 
- \`Status\`: *Subzero is online! 🤗🚀*
+ \`Status\`: *𝚂𝚃𝙰𝙽𝚈-𝚃𝙴𝙲𝙷-𝚇𝙼𝙳 is online! 🤗🚀*
 
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐌𝐑 𝐅𝐑𝐀𝐍𝐊. 🔗
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘  ©𝚂𝚃𝙰𝙽𝚈-𝚃𝙴𝙲𝙷™. 🔗
 `.trim();
 
     if (!ALIVE_IMG || !ALIVE_IMG.startsWith("http")) {
